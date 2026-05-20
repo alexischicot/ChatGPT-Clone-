@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#10a37f">
+  <title>ChatGPT Clone</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="logo">
+        <div class="logo-circle">AI</div>
+        <h2>ChatGPT</h2>
+      </div>
+
+      <button class="new-chat-btn">
+        + New Chat
+      </button>
+
+      <div class="chat-history">
+        <div class="chat-item active">
+          Chat 1
+        </div>
+
+        <div class="chat-item">
+          JavaScript Help
+        </div>
+
+        <div class="chat-item">
+          HTML Project
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <p>Made with HTML CSS JS</p>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+      <!-- HEADER -->
+      <header class="topbar">
+        <h1>ChatGPT Clone</h1>
+
+        <button id="themeToggle">
+          🌙
+        </button>
+      </header>
+
+      <!-- CHAT AREA -->
+      <section class="chat-area" id="chatArea">
+
+        <div class="message bot">
+          <div class="avatar">AI</div>
+
+          <div class="text">
+            Hello 👋<br>
+            Ask me anything.
+          </div>
+        </div>
+
+      </section>
+
+      <!-- INPUT -->
+      <div class="chat-input-area">
+
+        <textarea
+          id="userInput"
+          placeholder="Message ChatGPT..."
+          rows="1"
+        ></textarea>
+
+        <button id="sendBtn">
+          Send
+        </button>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+          </html>
